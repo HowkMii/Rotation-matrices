@@ -45,3 +45,6 @@ A_squared
 
 A_Frobenius = np.sqrt(np.sum(A_squared))
 A_Frobenius
+
+print('Frobenius norm of the Rotation matrix')
+print(np.sqrt(np.sum(Ro * Ro)), '== ', np.linalg.norm(Ro))
