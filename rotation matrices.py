@@ -39,3 +39,9 @@ plot_vectors([x2, y2], fname='transform_02.svg')
 
 A = np.array([[2, 2],
               [2, 2]])
+
+A_squared = np.square(A)
+A_squared
+
+A_Frobenius = np.sqrt(np.sum(A_squared))
+A_Frobenius
