@@ -35,3 +35,7 @@ print('\n Rotation matrix norm', np.linalg.norm(Ro))
 
 
 plot_vectors([x2, y2], fname='transform_02.svg')
+
+
+A = np.array([[2, 2],
+              [2, 2]])
