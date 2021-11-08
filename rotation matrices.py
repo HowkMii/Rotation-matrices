@@ -9,3 +9,5 @@ x = np.array([[1, 1]])
 
 y = np.dot(x, R) 
 y
+
+plot_vectors([x], axes=[4, 4], fname='transform_x.svg')
