@@ -6,3 +6,6 @@ R = np.array([[2, 0],
               [0, -2]])
 
 x = np.array([[1, 1]])
+
+y = np.dot(x, R) 
+y
