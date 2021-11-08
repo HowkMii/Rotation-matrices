@@ -32,3 +32,6 @@ print(y2)
 print('\n x2 norm', np.linalg.norm(x2))
 print('\n y2 norm', np.linalg.norm(y2))
 print('\n Rotation matrix norm', np.linalg.norm(Ro))
+
+
+plot_vectors([x2, y2], fname='transform_02.svg')
